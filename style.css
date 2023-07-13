@@ -1,0 +1,380 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    
+    flex-shrink: 0;
+    /* opacity: 0.10000000149011612; */
+}
+
+.container{
+    background-image: linear-gradient(-188deg,#ece4d1 50%, transparent 50% 100%);
+    fill: var(--secondary, #ede9e0);
+    margin: 0 auto;
+    max-width: 1440px;
+    height: 1247px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 40px;
+    
+}
+.matt div p{
+    color: var(--secondary, #9E8C6C);
+    font-family: PT Sans Narrow;
+    font-size: 18px;
+    font-style: normal;
+    text-align: center;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+.matt div h1{
+    width: 635px;
+    color: var(--font-color, #000);
+    font-family: Playfair Display;
+    font-size: 100px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 112px;
+    margin-top: 30px;
+    letter-spacing: -2.172px;
+}
+.matt div button{
+    width: 225px;
+    height: 60px;
+    flex-shrink: 0;
+    background: var(--primary, #0699A6);
+    color: #FFF;
+    text-align: center;
+    font-family: PT Sans Narrow;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    border: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    
+}
+/* telefon uchun style */
+@media (min-width: 0) and (max-width: 481px) {
+        .container{
+        background-image: linear-gradient(-188deg,#ece4d1 50%, transparent 50% 100%);
+        fill: var(--secondary, #ede9e0);
+        margin: 0 auto;
+        max-width: 100%;
+        height: 200px;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: space-evenly;
+        padding: 40px;
+        padding-bottom: 1400px   ;
+        
+    }
+    .matt div h1{
+        width: 378px;
+        color: var(--font-color, #000);
+        font-family: Playfair Display;
+        font-size: 56px;
+        text-align: center;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 46px;
+        letter-spacing: -2.172px;
+        margin-top: 30px;
+        
+    }
+    .container .imgs img{
+        width: 160px;
+        height: 160px;
+    }
+    
+}
+/* planshet uchun style */
+
+@media (min-width: 481px) and (max-width: 1083px)  {
+    .container{
+        background-image: linear-gradient(-188deg,#ece4d1 50%, transparent 50% 100%);
+        fill: var(--secondary, #ede9e0);
+        margin: 0 auto;
+        max-width: 100%;
+        height: 200px;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: space-evenly;
+        padding: 40px;
+        padding-bottom: 1700px;
+        
+    }
+    .matt div h1{
+        width: 788px;
+        color: var(--font-color, #000);
+        font-family: Playfair Display;
+        font-size: 56px;
+        text-align: center;
+        font-style: normal;
+        font-size: 86px;
+        font-weight: 900;
+        line-height: 76px;
+        margin-top: 30px;
+        
+    }
+    .container .imgs img{
+        width: 200px;
+        height: 200px;
+    }
+    
+
+    
+}
+
+/* section uchun style noutbokk uchun */
+
+
+.about{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 50px;
+    margin: -400px 265px 0;
+}
+.skill{
+    width: 356px;
+}
+.mee{
+    width: 654px;
+}
+h6{
+    color: var(--secondary, #9E8C6C);
+    font-family: PT Sans Narrow;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+p{
+    color: var(--font-color, #000);
+    font-family: PT Sans Narrow;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+}
+h4{
+    color: var(--font-color, #000);
+    font-family: Playfair Display;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 46px;
+}
+.shakl{
+    width: 71px;
+    height: 10px;
+    background: var(--primary, #0699A6);
+}
+.edu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 30px; */
+}
+a{
+    color: var(--primary, #0699A6);
+    font-family: PT Sans Narrow;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px;
+}
+
+/* telefon uchun style */
+@media (min-width: 0) and (max-width: 481px) {
+    .about{
+        display: flex;
+        /* justify-content: center; */
+        flex-wrap: nowrap;
+        flex-direction: column-reverse;
+        margin: -450px 0;
+        padding: 0 20px;
+
+        /* gap: 50px; */
+        /* margin: -400px 265px 0; */
+       
+        }
+        .mee{
+            width: 300px;
+        
+        }
+        .skill{
+            width: 300px;
+        }
+        h4{
+            font-size: 30px;
+        }
+        p{
+            font-size: 18px;
+        }
+        h6{
+            font-size: 18px;
+        }
+        .edu{
+            display: flex;
+            justify-content: center;
+            align-items: centers;
+        }
+
+
+
+}
+/* planshet uchun style */
+
+@media (min-width: 481px) and (max-width: 1083px)  {
+    .about{
+        display: flex;
+        /* justify-content: center; */
+        flex-wrap: nowrap;
+        flex-direction: column-reverse;
+        margin: -550px 0;
+        padding: 0 100px;
+
+        /* gap: 50px; */
+        /* margin: -400px 265px 0; */
+       
+        }
+        .mee{
+            width: 482px;
+        
+        }
+        .skill{
+            width: 482px;
+        }
+        h4{
+            font-size: 30px;
+        }
+        p{
+            font-size: 18px;
+        }
+        h6{
+            font-size: 18px;
+        }
+        .edu{
+            display: flex;
+            justify-content: center;
+            align-items: centers;
+        }
+
+}
+.get{
+    width: 1440px;
+    /* height: 547px; */
+    flex-shrink: 0;
+    fill: var(--secondary, #9E8C6C);
+    margin: 0 auto;
+    /* opacity: 0.10000000149011612; */
+     background-image: linear-gradient(352deg,#ece4d1 50%, transparent 50% 100%);
+}
+.get h2{
+    padding-top: 400px;
+    color: var(--font-color, #000);
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 66px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 82px;
+    margin-bottom: 20px;
+    letter-spacing: -1.138px;
+}
+.get h5 a{
+    color: var(--primary, #0699A6);
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    text-align: center;
+    line-height: 46px;
+    text-decoration: none;
+}
+.get h5{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0699A6;
+    font-size: 28px;
+    gap: 30px;
+}
+
+/* telefon uchun style */
+@media (min-width: 0) and (max-width: 481px) {
+    .get{
+        width: 100%;
+        /* height: 547px; */
+        flex-shrink: 0;
+        fill: var(--secondary, #9E8C6C);
+        margin: 150px auto;
+        /* opacity: 0.10000000149011612; */
+         background-image: linear-gradient(352deg,#ece4d1 50%, transparent 50% 100%);
+    }
+    h2{
+        font-size: 40px;
+    }
+    h5{
+        font-size: 26px; 
+    }
+
+}
+
+
+/* planshet uchun style */
+
+@media (min-width: 481px) and (max-width: 1083px)  {
+    .get{
+        width: 100%;
+        height: 647px;
+        flex-shrink: 0;
+        fill: var(--secondary, #9E8C6C);
+        margin: 250px auto;
+        /* opacity: 0.10000000149011612; */
+         background-image: linear-gradient(352deg,#ece4d1 50%, transparent 50% 100%);
+    }
+    h2{
+        font-size: 56px;
+    }
+    h5{
+        font-size: 30px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
