@@ -1,0 +1,60 @@
+@media (max-width: 1083px) {
+  .matt {
+    text-align: center;
+  }
+  .container .imgs img:nth-child(1) {
+    width: 200px;
+    height: 200px;
+  }
+  .container .imgs img:nth-child(2) {
+    width: 100px;
+    height: 100px;
+
+    top: -30px;
+    left: 130px;
+  }
+  .container {
+    padding-bottom: 1700px;
+  }
+  .matt div h1 {
+    font-size: 86px;
+    font-weight: 900;
+    line-height: 76px;
+    margin-top: 30px;
+  }
+  .container .imgs img {
+    width: 200px;
+    height: 200px;
+  }
+  .about {
+    flex-direction: column-reverse;
+    margin: -550px 0;
+    padding: 0 100px;
+  }
+  .mee {
+    max-width: 482px;
+  }
+  .skill {
+    max-width: 482px;
+  }
+  h4 {
+    font-size: 30px;
+  }
+  p {
+    font-size: 18px;
+  }
+  h6 {
+    font-size: 18px;
+  }
+  .get {
+    height: 647px;
+
+    margin: 250px auto;
+  }
+  h2 {
+    font-size: 56px;
+  }
+  h5 {
+    font-size: 30px;
+  }
+}

@@ -1,0 +1,60 @@
+@media (max-width: 481px) {
+  .container {
+    justify-content: space-evenly;
+    padding: 40px;
+    padding-bottom: 1400px;
+  }
+  .matt div h1 {
+    font-size: 56px;
+
+    line-height: 46px;
+    letter-spacing: -2.172px;
+    margin-top: 30px;
+  }
+  .container .imgs img:nth-child(1) {
+    width: 160px;
+    height: 160px;
+  }
+  .container .imgs img:nth-child(2) {
+    width: 100px;
+    height: 100px;
+
+    top: -30px;
+    left: 90px;
+  }
+  .matt div h1 {
+    margin-top: 14px;
+  }
+  .about {
+    display: flex;
+
+    flex-wrap: nowrap;
+    flex-direction: column-reverse;
+    margin: -450px 0;
+    padding: 0 20px;
+  }
+  .mee {
+    max-width: 300px;
+  }
+  .skill {
+    max-width: 300px;
+  }
+  h4 {
+    font-size: 30px;
+  }
+  p {
+    font-size: 18px;
+  }
+  h6 {
+    font-size: 18px;
+  }
+  .get h2 {
+    font-size: 40px;
+  }
+  .get h5 a {
+    font-size: 26px;
+  }
+  footer {
+    padding-bottom: 3rem;
+  }
+}
